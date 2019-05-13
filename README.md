@@ -48,3 +48,12 @@ Tensorflow模型的后缀是`pb`, TFLite模型的后缀是`tflite`.
 
 [6.配置K210的开发环境](6.配置K210的开发环境/配置K210的开发环境.md)
 
+
+
+[7.K210手写数字识别例程源码解读](7.K210手写数字识别例程源码解读/K210手写数字识别例程源码解读.md)
+
+关于如何自己训练一个卷积神经网络，并在MAIX开发板上运行，Zepan已经在sipeed的Blog写了一篇比较完整的教程：[30分钟训练，转换，运行MNIST于MAIX开发板](http://blog.sipeed.com/p/518.html)
+
+本教程主要是对mnist的K210例程做一个详细的解读, 对原来例程里面的`main.c`做了逐行注释.
+
+需要注意的是Sipeed的Lichee K210 Examples 年久失修，已经跟最新版本的K210 ToolChain 还有 SDK不兼容了， 后续有时间重构一份源码。
